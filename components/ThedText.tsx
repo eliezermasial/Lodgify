@@ -36,6 +36,7 @@ const styles: typographyStyles = StyleSheet.create({
     fontWeight: "400",
     lineHeight: 20, // 14 * 1.4
     letterSpacing: 0.2,
+    textTransform: "capitalize",
   },
   body: {
     fontSize: 16,

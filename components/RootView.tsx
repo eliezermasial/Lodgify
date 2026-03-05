@@ -20,6 +20,8 @@ export default function RootView({ style, ...rest }: props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 5,
+    padding: 20,
+    alignItems: "stretch",
+    gap: 30,
   },
 });
