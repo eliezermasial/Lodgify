@@ -1,5 +1,7 @@
 import AccommodationBlock from "@/components/AccommodationBlock";
 import ModalFooter from "@/components/ModalFooter";
+import PopularSection from "@/components/PopularSection";
+import ReadyHouseSection from "@/components/ReadyHouseSection";
 import RootView from "@/components/RootView";
 import Row from "@/components/Row";
 import SearchBar from "@/components/Searchbar";
@@ -61,6 +63,8 @@ export default function Index() {
           </Pressable>
         </Row>
         <AccommodationBlock />
+        <PopularSection />
+        <ReadyHouseSection />
         <ModalFooter
           modalVisible={modalVisible}
           toggleModalVisible={toggleModalVisible}

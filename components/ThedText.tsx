@@ -9,6 +9,7 @@ type props = TextProps & {
 
 type typographyStyles = {
   caption: TextStyle;
+  captionForModal: TextStyle;
   body: TextStyle;
   subheading: TextStyle;
   headline: TextStyle;
@@ -33,6 +34,13 @@ export default function ThedText({ color, variant, style, ...rest }: props) {
 const styles: typographyStyles = StyleSheet.create({
   caption: {
     fontSize: 14,
+    fontWeight: "400",
+    lineHeight: 20, // 14 * 1.4
+    letterSpacing: 0.2,
+    textTransform: "capitalize",
+  },
+  captionForModal: {
+    fontSize: 12,
     fontWeight: "400",
     lineHeight: 20, // 14 * 1.4
     letterSpacing: 0.2,
